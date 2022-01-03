@@ -1,0 +1,17 @@
+body{background-color: lightblue;}
+
+#madlib_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    padding: .5rem;
+}
